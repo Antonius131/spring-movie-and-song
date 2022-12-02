@@ -1,14 +1,12 @@
 package org.generation.italy.demo.pojo;
 
-public class Movie {
+public class Song {
 
 	private int id;
-	private String text;
+	private int text;
 	
-	public Movie(int id, String text) {
+	public Song() {
 		
-		setId(id);
-		setText(text);
 	}
 
 	public int getId() {
@@ -18,12 +16,12 @@ public class Movie {
 	public void setId(int id) {
 		this.id = id;
 	}
-	
-	public String getText() {
+
+	public int getText() {
 		return text;
 	}
-	
-	public void setText(String text) {
+
+	public void setText(int text) {
 		this.text = text;
 	}
 }
