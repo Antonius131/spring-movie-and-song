@@ -3,10 +3,12 @@ package org.generation.italy.demo.pojo;
 public class Song {
 
 	private int id;
-	private int text;
+	private String text;
 	
-	public Song() {
+	public Song(int id, String text) {
 		
+		setId(id);
+		setText(text);
 	}
 
 	public int getId() {
@@ -17,11 +19,11 @@ public class Song {
 		this.id = id;
 	}
 
-	public int getText() {
+	public String getText() {
 		return text;
 	}
 
-	public void setText(int text) {
+	public void setText(String text) {
 		this.text = text;
 	}
 }
