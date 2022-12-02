@@ -23,11 +23,11 @@ public class MainController {
 		
 		List<Movie> movies = new ArrayList<>();
 		
-		movies.add(new Movie("Primo"));
-		movies.add(new Movie("Secondo"));
-		movies.add(new Movie("Terzo"));
-		movies.add(new Movie("Quarto"));
-		movies.add(new Movie("Quinto"));
+		movies.add(new Movie(1, "Primo"));
+		movies.add(new Movie(2, "Secondo"));
+		movies.add(new Movie(3, "Terzo"));
+		movies.add(new Movie(4, "Quarto"));
+		movies.add(new Movie(5, "Quinto"));
 		
 		model.addAttribute("movies", movies);
 		
